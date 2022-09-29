@@ -66,5 +66,5 @@ function world_css() {
 	";
 }
 
-// listen for the admin_head action, then call our world_css function.
+// Listen for the admin_head action, then call our world_css function.
 add_action( 'admin_head', 'world_css' );
